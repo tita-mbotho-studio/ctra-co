@@ -115,7 +115,7 @@ export const SERVICES: Service[] = [
             "Scheduled cleaning and deep-clean support to keep your environment safe and professional. We can tailor frequency and coverage by area.",
         bullets: ["Scheduled cleaning", "Deep cleans when needed", "Custom coverage by area"],
         mediaUrl:
-            "https://ik.imagekit.io/kw8awoqvwi/ctra/cleaning_services.webp",
+            "https://ik.imagekit.io/kw8awoqvwi/ctra/cleaning_services.webp?updatedAt=1773679117288",
         mediaType: "image",
     },
     {
