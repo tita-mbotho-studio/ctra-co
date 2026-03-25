@@ -1,5 +1,3 @@
-import { asset } from '$app/paths';
-
 // app/src/lib/config/site.ts
 
 export type Service = {
@@ -76,7 +74,7 @@ export const HERO: {
             ? `https://wa.me/${num}?text=${encodeURIComponent(text)}`
             : `https://wa.me/?text=${encodeURIComponent(text)}`;
     })(),
-    img: asset('/img/hero/hero-1.png'),
+    img: "https://ik.imagekit.io/kw8awoqvwi/ctra/hero-1.png",
 };
 
 /** SERVICES */
@@ -198,7 +196,6 @@ export const BENEFITS: Benefit[] = [
     },
 ];
 
-
 /** ABOUT */
 export const ABOUT_SECTION: AboutSection = {
     heading: "About us",
@@ -222,21 +219,21 @@ export const PARTNERS: Partner[] = [
         name: "Avbob",
         category: "Electrical Services",
         blurb: "Avbob is one of our current partners for electrical services.",
-        imageUrl: asset('/img/brand/avbob-logo.jpeg'),
+        imageUrl: "https://ik.imagekit.io/kw8awoqvwi/ctra/avbob-logo.jpeg",
     },
     {
         key: "sandf",
         name: "SANDF",
         category: "Hospitality and Engineering Services",
         blurb: "SANDF is one of our current partners for hospitality and engineering services.",
-        imageUrl: asset('/img/brand/sandf-logo.png'),
+        imageUrl: "https://ik.imagekit.io/kw8awoqvwi/ctra/sandf-logo.png",
     },
     {
         key: "surlife-medical-center",
         name: "Surlife Medical Center",
         category: "Cleaning Services",
         blurb: "Surlife Medical Center is one of our current partners for cleaning services.",
-        imageUrl: asset('/img/brand/surlife-logo.jpeg'),
+        imageUrl: "https://ik.imagekit.io/kw8awoqvwi/ctra/surlife-logo.jpeg",
     },
 ];
 
