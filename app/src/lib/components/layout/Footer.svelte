@@ -1,6 +1,4 @@
 <script lang="ts">
-        import { asset } from "$app/paths";
-
         export let whatsappNumber = "";
         export let instagramUrl = "";
         export let tagline = "";
@@ -27,7 +25,7 @@
                 <div class="footer-brand">
                         <img
                                 class="footer-logo"
-                                src={asset("/img/brand/logo.png")}
+                                src="https://ik.imagekit.io/kw8awoqvwi/ctra/logo.png"
                                 alt="CTRA Group logo"
                         />
 

@@ -1,6 +1,6 @@
 <script lang="ts">
     import { onMount } from "svelte";
-    import { asset, base } from "$app/paths";
+    import { base } from "$app/paths";
     import { WHATSAPP_NUMBER, HEADER_HIRE_US_MESSAGE } from "$lib/config/site";
     import MobileNav from "./MobileNav.svelte";
 
@@ -149,7 +149,7 @@
             >
                 <img
                     class="site-header__logo"
-                    src={asset("/img/brand/logo.png")}
+                    src="https://ik.imagekit.io/kw8awoqvwi/ctra/logo.png"
                     alt="Logo"
                 />
             </a>
@@ -190,8 +190,8 @@
             >
                 <img
                     src={hamOpen
-                        ? asset("/img/icons/ham-close.svg")
-                        : asset("/img/icons/ham-open.svg")}
+                        ? "https://ik.imagekit.io/kw8awoqvwi/ctra/ham-close.svg"
+                        : "https://ik.imagekit.io/kw8awoqvwi/ctra/ham-open.svg"}
                     alt=""
                 />
             </button>
