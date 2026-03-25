@@ -164,37 +164,37 @@ export const BENEFITS: Benefit[] = [
         key: "coordination",
         title: "Coordinated delivery",
         blurb: "One partner across services to reduce handovers and speed up response.",
-        iconPath: asset('/img/icons/benefits-coordination.svg'),
+        iconPath: "https://ik.imagekit.io/kw8awoqvwi/ctra/benefits-coordination.svg",
     },
     {
         key: "uptime",
         title: "More predictable uptime",
         blurb: "Planned and reactive work aligned to your site and operating hours.",
-        iconPath: asset('/img/icons/benefits-uptime.svg'),
+        iconPath: "https://ik.imagekit.io/kw8awoqvwi/ctra/benefits-uptime.svg",
     },
     {
         key: "compliance",
         title: "Safety and compliance",
         blurb: "Documentation-ready processes that reduce risk and keep standards clear.",
-        iconPath: asset('/img/icons/benefits-safety.svg'),
+        iconPath: "https://ik.imagekit.io/kw8awoqvwi/ctra/benefits-safety.svg",
     },
     {
         key: "visibility",
         title: "Clear visibility",
         blurb: "Straightforward communication and reporting so nothing gets missed.",
-        iconPath: asset('/img/icons/benefits-communication.svg'),
+        iconPath: "https://ik.imagekit.io/kw8awoqvwi/ctra/benefits-communication.svg",
     },
     {
         key: "scale",
         title: "Scales as you grow",
         blurb: "Add services or increase coverage without changing providers.",
-        iconPath: asset('/img/icons/benefits-scale.svg'),
+        iconPath: "https://ik.imagekit.io/kw8awoqvwi/ctra/benefits-scale.svg",
     },
     {
         key: "cost",
         title: "Better cost control",
         blurb: "Less duplication, better scheduling, and clearer scope by service.",
-        iconPath: asset('/img/icons/benefits-cost.svg'),
+        iconPath: "https://ik.imagekit.io/kw8awoqvwi/ctra/benefits-cost.svg",
     },
 ];
 
